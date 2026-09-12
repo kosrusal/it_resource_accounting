@@ -40,6 +40,7 @@
 | `resource.return_requested` | IT-отдел | info |
 | `resource.owner_changed` | Прежний и новый владелец, тимлид | info |
 | `resource.status_changed` | Владелец (для критичных — команда) | info |
+| `resource.cotenant_maintenance` | Владельцы соседних по хосту ресурсов | warning |
 | `resource.expiring_soon` | Владелец, IT-админ | warning (30/14/7/1 день) |
 | `resource.expired` | Владелец, IT-админ | critical |
 | `resource.orphaned` | IT-админ | warning |
@@ -53,6 +54,7 @@
 | `inventory.discrepancy_found` | IT-админ | warning |
 | `offboarding.started` | IT-отдел, руководитель сотрудника | warning |
 | `offboarding.resources_not_returned` | IT-админ | critical |
+| `maintenance.*` (см. `07-maintenance.md` §7.9) | Владельцы затронутых, исполнитель, `it_admin` | info…critical |
 | `integration.sync_failed` | IT-админ | warning |
 | `budget.threshold_exceeded` | Тимлид, IT-админ | warning |
 
