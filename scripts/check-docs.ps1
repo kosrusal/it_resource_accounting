@@ -21,14 +21,12 @@ foreach ($file in $markdownFiles) {
         }
     }
 
-    # В главе внешних задач отдельная таблица источников повторно перечисляет номера.
-    $requirementPart = ($content -split '(?m)^## Прослеживаемость', 2)[0]
-    foreach ($line in ($requirementPart -split '\r?\n')) {
+    foreach ($line in ($content -split '\r?\n')) {
         if ($line -notmatch '^\|\s*((?:СТ|ТП)-[А-ЯЁ]+-\d{2})\s*\|') { continue }
         $id = $Matches[1]
         $cells = $line.Trim().Trim('|').Split('|') | ForEach-Object { $_.Trim() }
         $isSoftware = $id.StartsWith('ТП-')
-        $expectedCount = if ($file.Name -eq 'tracker-system.md') { 3 } else { 4 }
+        $expectedCount = 4
         if ($cells.Count -ne $expectedCount -or @($cells | Where-Object { -not $_ }).Count) {
             $failures.Add("Неполная строка требования: $id")
         }
