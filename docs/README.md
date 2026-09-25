@@ -21,6 +21,7 @@
 | [07-maintenance.md](07-maintenance.md) | Регламентные работы: окна, согласование, затронутые ресурсы |
 | [08-task-tracker.md](08-task-tracker.md) | Связь с системой ведения задач: сценарии, договор подключения, обработка повторов |
 | [09-observability.md](09-observability.md) | Наблюдаемость системы: технические записи, показатели и поиск сбоев |
+| [10-testing.md](10-testing.md) | Тестирование: уровни проверок, испытательные данные и условия приёмки |
 | [requirements/tracker-system.md](requirements/tracker-system.md) | Раздел системных требований к связи с системой задач |
 | [requirements/tracker-software.md](requirements/tracker-software.md) | Раздел требований к ПО для связи с системой задач |
 | [backlog.md](backlog.md) | Эпики и задачи с критериями приёмки |
