@@ -34,8 +34,7 @@
 ### 1.4 Ссылки
 
 Основания: [системные требования E7](tracker-system.md),
-[общие требования](system.md), [стандарт требований](../requirements-standard.md),
-[гайд курса](https://false-wish-4b2.notion.site/5bc7650b121c4feb84a7408cab4d779a).
+[общие требования](system.md), [стандарт требований](../requirements-standard.md).
 Смежные правила: [состояния заявок и ресурсов](../02-domain-model.md),
 [окна работ](../07-maintenance.md). Проект подключения: [раздел 08](../08-task-tracker.md).
 
