@@ -314,15 +314,3 @@ stateDiagram-v2
   4. Проверка сроков (`expiring_soon`, `expired`).
   5. Настройки пользователя, тихие часы, сводка.
   6. Мессенджер и изменение правил администратором.
-
-## Источники
-
-- [Telegram Bot API: ограничения частоты](https://core.telegram.org/bots/faq)
-- [Bot API Яндекс Мессенджера](https://yandex.ru/dev/messenger/doc/ru/api-requests/message-send-text)
-- [Боты и API Яндекс Мессенджера: ограничения](https://yandex.ru/support/yandex-360/business/admin/ru/messenger/bot-platform)
-- [Bot API VK WorkSpace](https://workspace.vk.ru/docs/saas/vks-messenger/messenger/bot/index.html)
-- [Novu](https://docs.novu.co/platform/what-is-novu)
-- [Apprise](https://github.com/caronc/apprise)
-- [ntfy](https://docs.ntfy.sh/)
-- [Prometheus Alertmanager](https://prometheus.io/docs/alerting/latest/alertmanager/)
-- [Сроки прекращения поддержки Opsgenie](https://www.adaptavist.com/blog/atlassian-opsgenie-availability-changes-effective-june-4-2025)
