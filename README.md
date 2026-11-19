@@ -8,19 +8,22 @@
 
 ## 1. Правила работы команды
 
-Начинать с [правил работы команды](docs/process/README.md): состав правил, роли,
+Правила игры лежат в каталоге [process/](process/), отдельно от документов проекта в [docs/](docs/).
+
+Начинать с [правил работы команды](process/README.md): состав правил, роли,
 замещение, сквозная схема работы.
 
 | Документ | Обозначение |
 |---|---|
-| [План разработки](docs/process/development-plan.md) | ПЛР |
-| [План управления конфигурацией](docs/process/configuration-management.md) | ПКУ |
-| [План верификации](docs/process/verification-plan.md) | ПВР |
-| [Процедура формальной инспекции](docs/process/inspection-procedure.md) | ПФИ |
-| [Чек-лист инспекции постановки задачи](docs/process/checklist-business-requirements.md) | ЧЛ-БТ |
-| [Стандарт разработки требований](docs/process/requirements-standard.md) | СТТ |
-| [Стандарт оформления документов](docs/process/document-standard.md) | СОД |
-| [Шаблон документа](docs/process/templates/document.md), [шаблон протокола](docs/process/templates/protocol.md) | Ш-ДОК, Ш-ПИ |
+| [План разработки](process/development-plan.md) | ПЛР |
+| [План управления конфигурацией](process/configuration-management.md) | ПКУ |
+| [План верификации](process/verification-plan.md) | ПВР |
+| [Процедура формальной инспекции](process/inspection-procedure.md) | ПФИ |
+| [Чек-лист инспекции постановки задачи](process/checklist-business-requirements.md) | ЧЛ-БТ |
+| [Стандарт разработки требований](process/requirements-standard.md) | СТТ |
+| [Стандарт оформления документов](process/document-standard.md) | СОД |
+| [Термины и определения](process/terms.md) | ТРМ |
+| [Шаблон документа](process/templates/document.md), [шаблон протокола](process/templates/protocol.md) | Ш-ДОК, Ш-ПИ |
 | [Языковые правила](AGENTS.md) | — |
 
 ## 2. Постановка задачи
