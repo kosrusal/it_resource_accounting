@@ -24,7 +24,6 @@
 | [Стандарт оформления документов](process/document-standard.md) | СОД |
 | [Термины и определения](process/terms.md) | ТРМ |
 | [Шаблон документа](process/templates/document.md), [шаблон протокола](process/templates/protocol.md) | Ш-ДОК, Ш-ПИ |
-| [Языковые правила](AGENTS.md) | — |
 
 ## 2. Постановка задачи
 
